@@ -24,27 +24,41 @@ Storytelling) over lower-weighted optional sections (cloud-native deployment, re
 systems, multi-city comparison). Full rationale is in reports/Final_Report.pdf, Section 2.
 
 ## 2. Repository Structure
-
-data/
-    raw/            Original Inside Airbnb files (gitignored, see download instructions below)
-    processed/      Cleaned and enriched CSV outputs from the pipeline (gitignored)
-notebooks/          Jupyter notebooks, run in the order listed below
-    01_ingestion_profiling.ipynb
-    02_data_cleaning_engineering.ipynb
-    03_exploratory_data_analysis.ipynb
-    04_review_sentiment_analysis.ipynb
-    run_load_data.ipynb
-sql/                 SQL Server DDL (star schema) and Python load script
-    create_star_schema.sql
-    load_data_to_sql.py
-powerbi/              Power BI dashboard
-    Lisbon Airbnb Market Intelligence dashboard.pbix
-reports/
-    Final_Report.pdf
-    figures/         PNG exports referenced in the report
-docs/                 Data quality report, schema profile, decisions log
-requirements.txt
-README.md
+```
+expernetic-lisbon-airbnb/
+│
+├── data/
+│   ├── raw/                         # Original Inside Airbnb dataset (gitignored)
+│   └── processed/                   # Cleaned & enriched datasets (gitignored)
+│
+├── notebooks/
+│   ├── 01_ingestion_profiling.ipynb
+│   ├── 02_data_cleaning_engineering.ipynb
+│   ├── 03_exploratory_data_analysis.ipynb
+│   ├── 04_review_sentiment_analysis.ipynb
+│   └── run_load_data.ipynb
+│
+├── sql/
+│   ├── create_star_schema.sql
+│   └── load_data_to_sql.py
+│
+├── powerbi/
+│   └── Lisbon Airbnb Market Intelligence Dashboard.pbix
+│
+├── reports/
+│   └── Final_Report.pdf
+│
+├── figures/
+│   └── Dashboard screenshots and report figures
+│
+├── docs/
+│   ├── Data Quality Report
+│   ├── Schema Profile
+│   └── Decision Log
+│
+├── requirements.txt
+└── README.md
+```
 
 ## 3. How to Reproduce
 
