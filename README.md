@@ -3,7 +3,7 @@
 **Data Engineer Intern — Technical Assignment | Expernetic (Pvt) Ltd**
 
 Candidate: Miuni Akarsha Praghnarathna
-Submission date: 13/07/2026
+Submission date: 12/07/2026
 
 ---
 
