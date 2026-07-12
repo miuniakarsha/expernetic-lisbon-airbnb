@@ -19,7 +19,7 @@ print("\n[1] Setting up connection...")
 # Connection string - UPDATE THIS WITH YOUR SERVER INFO
 conn_str = (
     "DRIVER={ODBC Driver 17 for SQL Server};"
-    "SERVER=LAPTOP-8G4F56T7\\SQLEXPRESS;"  
+    "SERVER=localhost\\SQLEXPRESS;"  
     "DATABASE=AirbnbLisbon;"
     "Trusted_Connection=yes;"  # Windows Authentication
     # For SQL Authentication, use:
