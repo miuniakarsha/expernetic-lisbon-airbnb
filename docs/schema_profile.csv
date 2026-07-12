@@ -1,0 +1,104 @@
+table,column,dtype,n_rows,n_non_null,null_rate_pct,n_unique,sample_value
+listings,id,int64,24876,24876,0.0,24876,6499
+listings,listing_url,object,24876,24876,0.0,24876,https://www.airbnb.com/rooms/6499
+listings,scrape_id,int64,24876,24876,0.0,1,20260623040800
+listings,last_scraped,object,24876,24876,0.0,5,2026-07-02
+listings,source,object,24876,24876,0.0,2,city scrape
+listings,name,object,24876,24876,0.0,24128,Belém 1 Bedroom Historical Apartment
+listings,description,object,24876,24263,2.46,20438,"This apartment is all about Location, next to the National C"
+listings,neighborhood_overview,float64,24876,0,100.0,0,
+listings,picture_url,object,24876,24862,0.06,24535,https://a0.muscache.com/pictures/hosting/Hosting-U3RheVN1cHB
+listings,host_id,int64,24876,24876,0.0,9521,14455
+listings,host_url,object,24876,24876,0.0,9521,https://www.airbnb.com/users/show/14455
+listings,host_profile_id,float64,24876,24856,0.08,9512,1.462506753508552e+18
+listings,host_profile_url,object,24876,24856,0.08,9512,https://www.airbnb.com/users/profile/1462506753508551833
+listings,host_name,object,24876,24856,0.08,3980,Bruno
+listings,host_since,float64,24876,0,100.0,0,
+listings,hosts_time_as_user_years,float64,24876,24856,0.08,18,17.0
+listings,hosts_time_as_user_months,float64,24876,24856,0.08,12,2.0
+listings,hosts_time_as_host_years,float64,24876,24856,0.08,16,15.0
+listings,hosts_time_as_host_months,float64,24876,24856,0.08,12,6.0
+listings,host_location,object,24876,17419,29.98,595,"Brussels, Belgium"
+listings,host_about,object,24876,13779,44.61,4186,"I am Bruno Luis, a Portuguese living in The Hague and I work"
+listings,host_response_time,float64,24876,0,100.0,0,
+listings,host_response_rate,float64,24876,0,100.0,0,
+listings,host_acceptance_rate,float64,24876,0,100.0,0,
+listings,host_is_superhost,object,24876,24856,0.08,2,f
+listings,host_thumbnail_url,float64,24876,0,100.0,0,
+listings,host_picture_url,object,24876,24856,0.08,9222,https://a0.muscache.com/im/users/14455/profile_pic/134434534
+listings,host_neighbourhood,float64,24876,0,100.0,0,
+listings,host_listings_count,float64,24876,24856,0.08,121,1.0
+listings,host_total_listings_count,float64,24876,0,100.0,0,
+listings,host_verifications,float64,24876,0,100.0,0,
+listings,host_has_profile_pic,object,24876,24856,0.08,2,t
+listings,host_identity_verified,object,24876,24856,0.08,2,t
+listings,neighbourhood,float64,24876,0,100.0,0,
+listings,neighbourhood_cleansed,object,24876,24876,0.0,129,Belm
+listings,neighbourhood_group_cleansed,object,24876,24876,0.0,16,Lisboa
+listings,latitude,float64,24876,24876,0.0,15157,38.6975
+listings,longitude,float64,24876,24876,0.0,16282,-9.19768
+listings,property_type,object,24876,24876,0.0,89,Entire rental unit
+listings,room_type,object,24876,24876,0.0,4,Entire home/apt
+listings,accommodates,int64,24876,24876,0.0,16,3
+listings,bathrooms,float64,24876,21161,14.93,26,1.0
+listings,bathrooms_text,object,24876,24862,0.06,48,1 bath
+listings,bedrooms,float64,24876,20418,17.92,20,1.0
+listings,beds,float64,24876,22367,10.09,30,3.0
+listings,amenities,object,24876,24876,0.0,23051,"[""Toaster"", ""Shower gel"", ""Fire extinguisher"", ""Oven"", ""Free"
+listings,price,object,24876,22636,9.0,5502,$90.67
+listings,price_quote_checkin_date,object,24876,23185,6.8,292,2026-07-12
+listings,price_quote_checkout_date,object,24876,23185,6.8,325,2026-07-15
+listings,price_quote_total_price,float64,24876,22636,9.0,4662,272.0
+listings,price_quote_price_per_night,float64,24876,22636,9.0,5502,90.67
+listings,price_quote_raw,object,24876,23185,6.8,20057,"{""quote"": {""taxes"": ""12.00"", ""currency"": ""EUR"", ""date_match"""
+listings,minimum_nights,float64,24876,24875,0.0,57,3.0
+listings,maximum_nights,float64,24876,24875,0.0,160,1125.0
+listings,minimum_minimum_nights,float64,24876,24875,0.0,57,3.0
+listings,maximum_minimum_nights,float64,24876,24875,0.0,67,3.0
+listings,minimum_maximum_nights,float64,24876,24875,0.0,157,1125.0
+listings,maximum_maximum_nights,float64,24876,24875,0.0,160,1125.0
+listings,minimum_nights_avg_ntm,float64,24876,24876,0.0,335,3.0
+listings,maximum_nights_avg_ntm,float64,24876,24876,0.0,1731,1125.0
+listings,calendar_updated,float64,24876,0,100.0,0,
+listings,has_availability,object,24876,24785,0.37,2,t
+listings,availability_30,int64,24876,24876,0.0,31,11
+listings,availability_60,int64,24876,24876,0.0,61,12
+listings,availability_90,int64,24876,24876,0.0,91,33
+listings,availability_365,int64,24876,24876,0.0,366,308
+listings,calendar_last_scraped,object,24876,24876,0.0,5,2026-07-02
+listings,number_of_reviews,int64,24876,24876,0.0,699,119
+listings,number_of_reviews_ltm,int64,24876,24876,0.0,145,29
+listings,number_of_reviews_l30d,int64,24876,24876,0.0,21,1
+listings,availability_eoy,int64,24876,24876,0.0,193,126
+listings,number_of_reviews_ly,int64,24876,24876,0.0,141,30
+listings,estimated_occupancy_l365d,int64,24876,24876,0.0,92,174
+listings,estimated_revenue_l365d,float64,24876,22636,9.0,8933,15777.0
+listings,first_review,object,24876,21766,12.5,4212,2014-09-02
+listings,last_review,object,24876,21766,12.5,1655,2026-06-14
+listings,review_scores_rating,float64,24876,21766,12.5,159,4.5
+listings,review_scores_accuracy,float64,24876,21766,12.5,154,4.44
+listings,review_scores_cleanliness,float64,24876,21766,12.5,172,4.36
+listings,review_scores_checkin,float64,24876,21766,12.5,151,4.84
+listings,review_scores_communication,float64,24876,21766,12.5,144,4.88
+listings,review_scores_location,float64,24876,21765,12.51,168,4.81
+listings,review_scores_value,float64,24876,21766,12.5,168,4.37
+listings,license,object,24876,23834,4.19,13503,56539/AL.
+listings,instant_bookable,float64,24876,0,100.0,0,
+listings,calculated_host_listings_count,int64,24876,24876,0.0,64,1
+listings,calculated_host_listings_count_entire_homes,int64,24876,24876,0.0,54,1
+listings,calculated_host_listings_count_private_rooms,int64,24876,24876,0.0,41,0
+listings,calculated_host_listings_count_shared_rooms,int64,24876,24876,0.0,9,0
+listings,reviews_per_month,float64,24876,21766,12.5,798,0.83
+calendar,listing_id,int64,9092881,9092881,0.0,24912,6499
+calendar,date,datetime64[ns],9092881,9092881,0.0,375,2026-07-02 00:00:00
+calendar,available,category,9092881,9092881,0.0,2,f
+calendar,minimum_nights,int64,9092881,9092881,0.0,72,3
+calendar,maximum_nights,int64,9092881,9092881,0.0,398,1125
+reviews,listing_id,int64,1886932,1886932,0.0,21794,6499
+reviews,id,int64,1886932,1886932,0.0,1886932,18879225
+reviews,date,datetime64[ns],1886932,1886932,0.0,5317,2014-09-02 00:00:00
+reviews,reviewer_id,int64,1886932,1886932,0.0,1699837,17027029
+reviews,reviewer_name,object,1886932,1886924,0.0,171703,Simone
+reviews,comments,object,1886932,1886792,0.01,1825670,"Ola Bruno,<br/><br/>Tive um mes Fantástico em seu apartame"
+neighbourhoods,neighbourhood_group,object,134,134,0.0,16,Alenquer
+neighbourhoods,neighbourhood,object,134,134,0.0,133,Abrigada e Cabanas de Torres
