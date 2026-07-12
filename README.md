@@ -49,12 +49,11 @@ expernetic-lisbon-airbnb/
 │   └── Final_Report.pdf
 │
 ├── figures/
-│   └── Dashboard screenshots and report figures
+│   └── report figures
 │
 ├── docs/
 │   ├── Data Quality Report
-│   ├── Schema Profile
-│   └── Decision Log
+│   └── Schema Profile   
 │
 ├── requirements.txt
 └── README.md
